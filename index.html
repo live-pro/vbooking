@@ -15,9 +15,85 @@
     <title>Viva Booking</title>
 </head>
 <body>
-<h1>Font testing!</h1>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dolore quidem quisquam temporibus? Aut, ducimus ea ipsa molestias recusandae tempora?</p>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-0">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="tel:+917 3386831"><i class="zmdi zmdi-phone-in-talk"></i> +917 338683</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mailto:support@travelagency.com"><i class="zmdi zmdi-email"></i> support@travelagency.com</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img src="img/en.png" alt="EN">  English
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#"><img src="img/ge.png" alt="GE">German</a>
+                            <a class="dropdown-item" href="#"><img src="img/ru.png" alt="RU">Russian</a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Supplier</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pr-0" href="#">Agent</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-light bg-white py-0">
+        <div class="container">
+            <div class="navbar-brand">
+                <a  href="#"><img src="img/logo.png" alt="Viva Booking" width="250px"></a>
+                <span>TRAVEL AGENCY</span>
+            </div>
+
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<section class="container-fluid banner">
+    <div class="container ">
+        <div class="row ">
+            <div class="col-9">
+                <ul class="nav nav-tabs"  role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="hotel-tab" data-toggle="tab" href="#hotel" role="tab" aria-controls="hotel" aria-selected="true">Hotel</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="package-tab" data-toggle="tab" href="#package" role="tab" aria-controls="package" aria-selected="false">Package</a>
+                    </li>
+                </ul>
+                <div class="tab-content" >
+                    <div class="tab-pane fade show active" id="hotel" role="tabpanel" aria-labelledby="hotel-tab">
+
+                    </div>
+                    <div class="tab-pane fade" id="package" role="tabpanel" aria-labelledby="package-tab">
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque consequuntur dolor eos expedita fugiat necessitatibus neque nihil ratione rem tempore.
+            </div>
+        </div>
+    </div>
+</section>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="js/jquery-3.3.1.slim.min.js"></script>
