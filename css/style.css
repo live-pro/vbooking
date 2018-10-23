@@ -20,3 +20,134 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     align-items: center;
 }
+.top-nav li >a{
+    border-left: 1px solid #ebebeb;
+}
+.top-nav2 li >a{
+    border-right: 1px solid #ebebeb;
+}
+.top-nav2 li a, .top-nav li a{
+    padding-right: .75rem !important;
+    padding-left: .75rem !important;
+}
+.top-nav2 li a i, .top-nav li a i, .top-nav li a img{
+    color: #FF8D07;
+    font-size: 1.25rem;
+    padding-right: .5rem;
+    vertical-align: middle;
+}
+.logo >span{
+    position: relative;
+    margin-left: 1.5rem;
+    padding-left: 1.75rem;
+    display: inline-block;
+    color: #999;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+.logo >span:before{
+    content: '';
+    background: #ebebeb;
+    width: 1px;
+    height: 2rem;
+    position: absolute;
+    left: 0;
+    top: -.5rem;
+}
+.btn-vivo{
+    border: 2px solid #FF8D07;
+    background-color: transparent;
+    color: #FF8D07!important;
+    padding: .5rem 2rem !important;
+    font-weight: 600;
+}
+.btn-vivo:hover{
+    background-color: #FF8D07;
+    color: #fff!important;
+}
+.btn-vivo-solid{
+    border: 2px solid #FF8D07;
+    background-color: #FF8D07;
+    color: #fff!important;
+    padding: .5rem 2rem !important;
+    font-weight: 600;
+}
+.btn-vivo-solid:hover{
+    background-color: #F58300;
+    color: #fff!important;
+}
+.dropdown-menu {
+    border-color: #ebebeb;
+    border-radius: 0;
+    margin: 0;
+}
+.login-dropdown{
+    width: 16rem;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.login-dropdown:after {
+    content: '';
+    position: absolute;
+    margin: 0 auto;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #ebebeb;
+    top: -10px;
+    right: 16%;
+}
+.vivo-tab{
+    border: none;
+}
+.vivo-tab li{
+    z-index: 1;
+}
+.vivo-tab li a{
+    position: relative;
+    min-width: 10rem;
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+}
+.vivo-tab li a:before {
+    background-color: #587d8f;
+    content: "";
+    height: 3px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 28px;
+    width: 100%;
+    z-index: -1;
+}
+.vivo-tab li a.active:before {
+    background-color: #FF8D07;
+}
+.vivo-tab li a.active, .vivo-tab li a:hover {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+.vivo-tab li a.active {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    color: #FF8D07 !important;
+}
+.vivo-tab li a i {
+    border: 1px solid #587d8f;
+    background-color: #00374d;
+    border-radius: 50%;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    height: 38px;
+    line-height: 38px;
+    margin: auto auto .5rem;
+    text-align: center;
+    width: 38px;
+}
+.vivo-tab li a.active i {
+    border-color: #FF8D07;
+    background-color: #FF8D07;
+
+
+}

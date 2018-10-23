@@ -9,6 +9,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://fonts.googleapis.com/css?family=Archivo:400,500,600,700" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 
@@ -23,16 +24,16 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
+                <ul class="navbar-nav mr-auto top-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="tel:+917 3386831"><i class="zmdi zmdi-phone-in-talk"></i> +917 338683</a>
+                        <a class="nav-link" href="tel:+917 3386831"><i class="zmdi zmdi-phone-in-talk"></i>+917 338683</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="mailto:support@travelagency.com"><i class="zmdi zmdi-email"></i> support@travelagency.com</a>
+                        <a class="nav-link" href="mailto:support@travelagency.com"><i class="zmdi zmdi-email"></i>support@travelagency.com</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <img src="img/en.png" alt="EN">  English
+                            <img src="img/en.png" alt="EN">English
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#"><img src="img/ge.png" alt="GE">German</a>
@@ -40,28 +41,51 @@
                         </div>
                     </li>
                 </ul>
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav ml-auto top-nav2">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Supplier</a>
+                        <a class="nav-link" href="#"><i class="zmdi zmdi-balance"></i>Supplier</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link pr-0" href="#">Agent</a>
+                        <a class="nav-link" href="#"><i class="zmdi zmdi-accounts-list-alt"></i>Agent</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <nav class="navbar navbar-light bg-white py-0">
+    <nav class="navbar navbar-expand-sm navbar-light bg-white py-0">
         <div class="container">
-            <div class="navbar-brand">
+            <div class="navbar-brand logo">
                 <a  href="#"><img src="img/logo.png" alt="Viva Booking" width="250px"></a>
                 <span>TRAVEL AGENCY</span>
             </div>
 
 
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item ">
-                    <a class="nav-link" href="#">Login</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link btn btn-vivo" href="#" id="navbarDropdownLogin" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Login
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right login-dropdown" aria-labelledby="navbarDropdownLogin">
+                        <form>
+                            <div class="form-group">
+                                <label for="agentid">Agent ID</label>
+                                <input type="text" class="form-control" id="agentid" aria-describedby="agentid" placeholder="Enter Agent ID">
+                            </div>
+                            <div class="form-group">
+                                <label for="useremail">Email</label>
+                                <input type="email" class="form-control" id="useremail" aria-describedby="useremail" placeholder="Enter email">
+                            </div>
+                            <div class="form-group">
+                                <label for="userpassword">Password</label>
+                                <input type="password" class="form-control" id="userpassword" placeholder="Enter Password">
+                            </div>
+                            <div class="form-group form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Remember Me</label>
+                            </div>
+                            <button type="submit" class="btn btn-vivo-solid btn-block">Login</button>
+                        </form>
+                    </div>
                 </li>
             </ul>
         </div>
@@ -71,20 +95,20 @@
     <div class="container ">
         <div class="row ">
             <div class="col-9">
-                <ul class="nav nav-tabs"  role="tablist">
+                <ul class="nav nav-tabs vivo-tab"  role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link active" id="hotel-tab" data-toggle="tab" href="#hotel" role="tab" aria-controls="hotel" aria-selected="true">Hotel</a>
+                        <a class="nav-link active" id="hotel-tab" data-toggle="tab" href="#hotel" role="tab" aria-controls="hotel" aria-selected="true"><i class="fa fa-building-o icon"></i>Hotel</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="package-tab" data-toggle="tab" href="#package" role="tab" aria-controls="package" aria-selected="false">Package</a>
+                        <a class="nav-link" id="package-tab" data-toggle="tab" href="#package" role="tab" aria-controls="package" aria-selected="false"><i class="zmdi zmdi-camera-roll"></i>Package</a>
                     </li>
                 </ul>
                 <div class="tab-content" >
                     <div class="tab-pane fade show active" id="hotel" role="tabpanel" aria-labelledby="hotel-tab">
-
+tab 1
                     </div>
                     <div class="tab-pane fade" id="package" role="tabpanel" aria-labelledby="package-tab">
-
+tab 2
                     </div>
                 </div>
             </div>
