@@ -1,10 +1,15 @@
 body {
     font-family: 'Archivo', sans-serif;
     font-weight: 400;
+    font-size: 14px;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
+}
+.form-control {
+    font-size: 14px;
+    border-color:#dbdbdb;
 }
 .container {
     max-width: 1200px !important;
@@ -15,7 +20,8 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
     position: relative;
     min-height: calc(100vh - 125px);
-    padding: 30px;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -106,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     min-width: 10rem;
     text-align: center;
-    color: #fff;
+    color: #cbcbcb;
     font-weight: 600;
 }
 .vivo-tab li a:before {
@@ -130,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 .vivo-tab li a.active {
     background-color: transparent !important;
     border-color: transparent !important;
-    color: #FF8D07 !important;
+    color: #fff !important;
 }
 .vivo-tab li a i {
     border: 1px solid #587d8f;
@@ -148,6 +154,91 @@ h1, h2, h3, h4, h5, h6 {
 .vivo-tab li a.active i {
     border-color: #FF8D07;
     background-color: #FF8D07;
-
-
+}
+.carousel-control-next, .carousel-control-prev {
+    width: 30px;
+    font-size: 2rem;
+}
+.carousel-control-next {
+    right: -25px;
+}
+.carousel-control-prev {
+    left: -25px;
+}
+.carousel-control-next:hover,
+.carousel-control-prev:hover{
+    color: #FF8D07;
+    opacity: 1;
+}
+.carousel-item .card, .card.event{
+    border: none;
+    border-radius: 0;
+}
+.carousel-item .card{
+    cursor: pointer;
+}
+.carousel-item .card:hover{
+    color: #000;
+}
+.carousel-item .card-body {
+    padding-top: .75rem;
+}
+.carousel-item .card .card-img-top{
+    border-radius: 0;
+}
+.carousel-item .card .card-title {
+    margin-bottom: .25rem;
+}
+.carousel-item .card .card-text {
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+    color: #bac0c3;
+}
+.product-price .price {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 30px;
+    display: inline-block;
+    margin-bottom: .75rem;
+}
+.event .media > img{
+    max-width: 65px;
+    margin-top: .25rem;
+}
+.event .media span{
+    color: #4e555b;
+    font-size: .95em;
+    line-height: 1.25;
+    display: inline-block;
+}
+.event a:hover,.feature:hover{
+    text-decoration: none ;
+}
+.feature, .feature:hover{
+    color: #464646;
+}
+.feature .dropright{
+    margin-top: .75rem;
+}
+.feature:hover .dropright, .event a:hover{
+    color: #FF8D07;
+}
+.logo-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.footer-nav {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-bottom: 1px solid #ebebeb;
+}
+.footer-nav .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.footer-nav li a{
+    padding-left: .75rem !important;
+    padding-right: .75rem !important;
 }
