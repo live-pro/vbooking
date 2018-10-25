@@ -302,7 +302,7 @@ li.open > a .arrow:after {
     content: '\2013';
 }
 .dashboard{
-    border-top: 1px solid #ebebeb;
+    border-top: 1px solid #f8f9fa;
 }
 .dashboard .fixed-width{
     min-width: 14rem;
