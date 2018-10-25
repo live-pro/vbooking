@@ -307,6 +307,5 @@ li.open > a .arrow:after {
 .dashboard .fixed-width{
     min-width: 14rem;
     background-color: #f8f9fa;
-    padding-bottom: 4rem;
     padding-right: 0;
 }
