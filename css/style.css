@@ -234,3 +234,79 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: .75rem !important;
     padding-right: .75rem !important;
 }
+.site-nav  li  a{
+    position: relative;
+    color: rgba(0,0,0,.5);
+    font-size: 1rem;
+}
+.site-nav  li  a:hover, .site-nav  > li.open  > a,.site-nav  li  a.active{
+    color: #23272b;
+}
+.site-nav  > li  >a:hover i, .site-nav  > li.open  > a i,.site-nav  >li  >a.active i{
+    color: #FF8D07;
+}
+.site-nav  li  a.active{
+    background-color: #fff;
+    font-weight: 500;
+}
+.site-nav > li > a > i{
+    font-size: 1.25rem;
+    margin-right: .5rem;
+    vertical-align: middle;
+}
+.site-nav > li > a + ul {
+    overflow: hidden;
+    max-height: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    -moz-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -moz-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    -webkit-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    -o-transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    padding-left: 1rem;
+}
+
+.site-nav > li.open > a + ul {
+    -moz-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -moz-transition-timing-function: ease-in;
+    -webkit-transition-timing-function: ease-in;
+    -o-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
+    max-height: 1000px;
+    overflow: hidden;
+}
+.arrow:after {
+    content: "+";
+    display: inline-block;
+    position: absolute;
+    right: 14px;
+    top: 8px;
+    font-style: normal;
+    font-size: 16px;
+    opacity: 1;
+    transition: all 350ms ease;
+}
+
+li.open > a .arrow:after {
+    content: '\2013';
+}
+.dashboard{
+    border-top: 1px solid #ebebeb;
+}
+.dashboard .fixed-width{
+    min-width: 14rem;
+    background-color: #f8f9fa;
+    padding-bottom: 4rem;
+    padding-right: 0;
+}
