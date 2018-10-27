@@ -324,3 +324,17 @@ li.open > a .arrow:after {
 .card-dashboard .card-header{
     border: none;
 }
+#salesChart svg > rect{
+    fill: #f8f9fa !important;
+}
+.table thead th {
+    border-width: 0;
+}
+.btn-edit, .btn-remove{
+    font-size: 1rem;
+    padding: .125rem;
+    color: #6c757d;
+}
+.btn-remove:hover{
+    color: #dc3545;
+}

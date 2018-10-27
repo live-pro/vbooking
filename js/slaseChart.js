@@ -19,9 +19,9 @@ var optionSales = {
 
 function drawStacked() {
     var dataSales = new google.visualization.DataTable();
-    dataSales.addColumn('string', 'Week');
-    dataSales.addColumn('number', 'Sales');
-    dataSales.addColumn('number', 'Abandoned Cart');
+    dataSales.addColumn('string', 'Month');
+    dataSales.addColumn('number', 'Packages');
+    dataSales.addColumn('number', 'Hotels');
     dataSales.addRows([
         ['Jan', 11, 42],
         ['Feb', 10, 28],
