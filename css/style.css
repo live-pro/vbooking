@@ -234,6 +234,9 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: .75rem !important;
     padding-right: .75rem !important;
 }
+.site-nav{
+    width: 100%;
+}
 .site-nav  li  a{
     position: relative;
     color: rgba(0,0,0,.5);
@@ -308,4 +311,16 @@ li.open > a .arrow:after {
     min-width: 14rem;
     background-color: #f8f9fa;
     padding-right: 0;
+}
+.card-dashboard .card{
+    border: none;
+    border-radius: 0;
+}
+
+.card-dashboard .card-body{
+    padding-bottom: 0.75rem;
+}
+.card-dashboard .card-footer,
+.card-dashboard .card-header{
+    border: none;
 }
