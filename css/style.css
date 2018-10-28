@@ -361,7 +361,7 @@ li.open > a .arrow:after {
     }*/
 }
 @media (max-width: 575.98px){
-    .top-navber{
+    .top-navber, .top-navber >.container{
         padding: 0;
     }
     .btn-vivo {
