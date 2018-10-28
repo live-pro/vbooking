@@ -338,3 +338,64 @@ li.open > a .arrow:after {
 .btn-remove:hover{
     color: #dc3545;
 }
+.navbar-toggler:focus, .navbar-toggler:active,
+.navbar-light .navbar-toggler:focus{
+    color: #FF8D07;
+    outline: none;
+}
+.navbar-light .navbar-toggler {
+    color: #212529;
+    border-color: transparent;
+}
+.navbar-expand-xs .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+@media (max-width: 1200px){
+/*.event .media{
+    flex-direction: column;
+}
+    .event .media > img {
+        margin-top: 0;
+        margin-bottom: .25rem;
+    }*/
+}
+@media (max-width: 575.98px){
+    .top-navber{
+        padding: 0;
+    }
+    .btn-vivo {
+        padding: .25rem .5rem !important;
+    }
+
+    .logo a img {
+        max-width: 205px;
+    }
+    .navbar-nav .dropdown-menu {
+        position: absolute;
+    }
+    .login-dropdown:after {
+        right: 8%;
+    }
+    .vivo-tab li a {
+        min-width: 8rem;
+    }
+    .carousel-item .card{
+        margin-bottom: 1rem;
+    }
+    .banner {
+        background-image: none;
+        padding-left: 0;
+        background-color: rgba(0,0,0,.75);
+        padding-right: 0;
+    }
+    .carousel-control-next {
+        right: -22px;
+    }
+    .carousel-control-prev {
+        left: -22px;
+    }
+    .vivo-tab {
+        justify-content: center;
+    }
+}
